@@ -2,7 +2,7 @@
   "name": ["Name", "Namn"],
   "role": ["Role", "Roll"],
   "signupIntro.joinAs": ["I want to join as:", "Ansöker som"],
-  
+
   "signup.category.readMore": ["Read more about categories."],
   "categories.readmore": ["Read more"],
   "signupButton": ["Sign up", "Ansök nu"],
@@ -44,10 +44,7 @@
     "FAQ for Partners",
     "Vanliga frågor (partners)"
   ],
-  "hackatonSection.partnerTrack": [
-    "Partner Track",
-    "Partner Track"
-  ],
+  "hackatonSection.partnerTrack": ["Partner Track", "Partner Track"],
   "innovationWeekHeadline1": ["One week,", "En vecka,"],
   "innovationWeekHeadline2": ["three events,", "tre events"],
   "innovationWeekHeadline3": [
@@ -97,15 +94,9 @@
   "link.signup": ["Sign up", "Ansök"],
   "/": ["Welcome", "Welcome"],
   "/jury": ["Jury", "Jury"],
-  "/prizes": [
-    "Prizes", "Priser"
-  ],
-  "/winners": [
-    "Winners", "Vinnare"
-  ],
-  "/participants-2019": [
-    "Participants", "Deltagare"
-  ],
+  "/prizes": ["Prizes", "Priser"],
+  "/winners": ["Winners", "Vinnare"],
+  "/participants-2019": ["Participants", "Deltagare"],
   "/open-data": ["Open data", "Öppna data"],
   "/partner-track": ["Partner Track", "Partner Track"],
   "/the-mission": ["The mission", "Uppdraget"],
@@ -116,9 +107,7 @@
     "Sweden innovation week",
     "Sweden innovation week"
   ],
-  "/hackaton#schedule": [
-"Schedule", "Program"
-  ],
+  "/hackaton#schedule": ["Schedule", "Program"],
   "/dream-for-sweden": ["Dream for Sweden", "Dream for Sweden"],
   "/hackaton": ["Hack for Sweden 2019", "Hack for Sweden 2019"],
   "/faq": ["FAQ", "Vanliga frågor - hackare"],
@@ -127,9 +116,7 @@
   "/signup": ["Signup", "Ansök"],
   "/partner": ["Partner", "Partner"],
   "/challenges": ["Challenges", "Utmaningar"],
-  "faq.title": [
-    "FAQ - hackers", "Vanliga frågor - hackare"
-  ],
+  "faq.title": ["FAQ - hackers", "Vanliga frågor - hackare"],
   "footer.contact": ["Contact", "Kontakta oss"],
   "projectManagement": ["Project management", "Projektledning"],
   "steeringCommittee": ["Steering Committee", "Styrgrupp"],
@@ -180,9 +167,7 @@
   ],
   "winnerOf": ["winner of", "pris på"],
   "winnerGroup": ["Winner of", "Vinnare av"],
-  "and": [
-    "and", "och"
-  ],
+  "and": ["and", "och"],
   "swedenAward": [
     "winner of the Hack for Sweden Cup and ",
     "vinnare av Hack for Sweden cup och ett pris på "
@@ -211,7 +196,7 @@
   "partnerform.title": [
     "Interessted in becoming a partner? Contact us through the form below.",
     "Sugen på att bli partner med oss? Kontakta oss via formuläret nedanför"
-    ],
+  ],
   "challenges.title": ["Challenges", "Utmaningar"],
   "challenges.first": [
     "Hack for Sweden 2019 is all about sustainability and creating real tools for the good of our society. Our overall framework is Agenda 2030 and the UN:s 17 global goals. The 6 categories for this year’s hackathon are the 6 most datamature areas, identified by Gartner on behalf of the Swedish Government in 2018",
@@ -226,51 +211,24 @@
     "April 4th - 6th, Stockholmsmässan",
     "4-6 April, Stockholmsmässan"
   ],
-  "winnerKey.contact": [
-    "Contact person", "Kontaktperson"
-  ],
-  "winnerKey.presentation": [
-    "Presentation", "Presentation"
-  ],
-  "winnerKey.openData": [
-    "Open Data used", "Öppna data använd"
-  ],
+  "winnerKey.contact": ["Contact person", "Kontaktperson"],
+  "winnerKey.presentation": ["Presentation", "Presentation"],
+  "winnerKey.openData": ["Open Data used", "Öppna data använd"],
   "winner.linkToPresentation": [
-    "Link to presentation", "Länk till presentationen"
+    "Link to presentation",
+    "Länk till presentationen"
   ],
-  "winnerKey.challenge": [
-    "Selected challenge", "Vald utmaning"
-  ],
-  "winners.environment": [
-    "Environment", "Miljö"
-  ],
-  "winners.health": [
-    "Health Sector", "Hälsa"
-  ],
-  "winners.labor": [
-    "Labor Market", "Arbetsmarknad"
-  ],
-  "winners.business": [
-    "Business Sector", "Näringsliv"
-  ],
-  "winners.education": [
-    "Education & Science", "Utbildning och forskning"
-  ],
-  "winners.mobility": [
-    "Mobility", "Trafik"
-  ],
-  "winners.remaining": [
-    "All teams", "Alla lag"
-  ],
-  "winners.title": [
-    "Winners", "Vinnare"
-  ],
-  "winnerKey.category": [
-    "Category", "Kategori"
-  ],
-  "winners.final": [
-    "Award ceremony", "Prisutdelning"
-  ],
+  "winnerKey.challenge": ["Selected challenge", "Vald utmaning"],
+  "winners.environment": ["Environment", "Miljö"],
+  "winners.health": ["Health Sector", "Hälsa"],
+  "winners.labor": ["Labor Market", "Arbetsmarknad"],
+  "winners.business": ["Business Sector", "Näringsliv"],
+  "winners.education": ["Education & Science", "Utbildning och forskning"],
+  "winners.mobility": ["Mobility", "Trafik"],
+  "winners.remaining": ["All teams", "Alla lag"],
+  "winners.title": ["Winners", "Vinnare"],
+  "winnerKey.category": ["Category", "Kategori"],
+  "winners.final": ["Award ceremony", "Prisutdelning"],
   "media.intro": [
     "More photos and videos can be found on our ",
     "Fler foton och videos kan du hitta på våran "
@@ -281,26 +239,18 @@
   ],
   "winners.categoryOther": [
     "Winner of 30.000SEK, the support of our partners to realize the solution and a trip to Almedalen to present their prototype on stage at Hack for Sweden’s event on July 5th 2019",
-"Vinnare av 30.000SEK, stöd från våra partners för att förverkliga lösningen och en resa till Almedalen för att presentera sin prototyp på scenen hos Hack for Sweden event den 5 juli 2019"
+    "Vinnare av 30.000SEK, stöd från våra partners för att förverkliga lösningen och en resa till Almedalen för att presentera sin prototyp på scenen hos Hack for Sweden event den 5 juli 2019"
   ],
   "winners.categoryFirst": [
     "Winner of 50.000SEK, the support of our partners to realize the solution and a trip to the world exhibition Expo2020 in Dubai to present their solution in the Swedish Pavilion",
-"Vinnare av 50.000SEEK, stöd från våra partners för att förverkliga lösningen och en resa till världsutställningen Expo 2020 i Dubai för att presentera sin lösning i det svenska paviljongen"
+    "Vinnare av 50.000SEEK, stöd från våra partners för att förverkliga lösningen och en resa till världsutställningen Expo 2020 i Dubai för att presentera sin lösning i det svenska paviljongen"
   ],
-  "hero.winnerLink": [
-    "Find out more about the winners",
-    "Läs mer om vinnarna"
-  ],
+  "hero.winnerLink": ["Find out more about the winners", "Läs mer om vinnarna"],
   "winners.video": [
     "Want to see the teams pitch their solutions on stage to the Advisory Board? See the teams win their category and compete for the Hack for Sweden Award in this video from the Hack for Sweden finals!",
     "Vill du se lagen presentera sina lösningar på scenen framför Advisory Board? Se lagen vinna sin kategori och tävla om Hack for Sweden Award i den här videon från Hack for Sweden-finalen!"
-
   ],
-  "winnerKey.motivation": [
-    "Motivation by the Jury","Motivering av juryn"
-  ],
-  "smallWinner.middle": [
-    "winner of ",
-    "vinnare av"
-  ]
+  "winnerKey.motivation": ["Motivation by the Jury", "Motivering av juryn"],
+  "smallWinner.middle": ["winner of ", "vinnare av"],
+  "almedalenTitle": ["Almedalen 2019", "Almedalen 2019"]
 }

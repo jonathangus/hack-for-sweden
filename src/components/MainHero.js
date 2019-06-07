@@ -72,8 +72,8 @@ const MainHero = ({ title, text, data, posterImage }) => {
           <AnimateIns onDone={onAnimateDone}>
             <HackerTitle title={title} />
             <Button>
-              <BorderButton to={t.url('/winners')}>
-                {t('hero.winnerLink')}
+              <BorderButton to={'/almedalen'}>
+                {t('almedalenTitle')}
               </BorderButton>
             </Button>
           </AnimateIns>

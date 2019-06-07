@@ -115,7 +115,7 @@ export const query = graphql`
 
     allContentfulEvent(
       sort: { fields: [startDate], order: ASC }
-      filter: { node_locale: { eq: $locale }, startDate: { regex: "/\\w+/" } }
+      filter: { node_locale: { eq: $locale } }
     ) {
       edges {
         node {
