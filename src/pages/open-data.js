@@ -50,6 +50,7 @@ export const query = graphql`
               ...GatsbyContentfulFluid_withWebp
             }
           }
+
           youtube: yotube {
             title
             youtubeId

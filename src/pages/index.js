@@ -97,7 +97,7 @@ export const query = graphql`
         node {
           id
           title
-          youtubeId
+
           vimeoId
           body {
             childMarkdownRemark {
