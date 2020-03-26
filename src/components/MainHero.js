@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
+import isMobile from 'ismobilejs'
+import { Link } from 'gatsby'
 import { bgHero, gutter } from '../vars'
 import uiEmitter, { events } from '../uiEmitter'
 import HackerTitle from './HackerTitle'
 import Grid from './Grid'
 import AnimateIns from './AnimateIns'
-import isMobile from 'ismobilejs'
-import { Link } from 'gatsby'
 import BorderButton from './BorderButton'
 import { useLocale } from '../localeContext'
 
@@ -62,7 +62,6 @@ const MainHero = ({ title, text, data, posterImage }) => {
     uiEmitter.emit(events.heroLoaded)
   }
 
-  console.log(posterImage.fluid.src)
   const t = useLocale()
 
   return (
@@ -72,8 +71,8 @@ const MainHero = ({ title, text, data, posterImage }) => {
           <AnimateIns onDone={onAnimateDone}>
             <HackerTitle title={title} />
             <Button>
-              <BorderButton to={'/almedalen'}>
-                {t('almedalenTitle')}
+              <BorderButton external to={'https://www.hackthecrisis.se/'}>
+                Hack the crisis
               </BorderButton>
             </Button>
           </AnimateIns>

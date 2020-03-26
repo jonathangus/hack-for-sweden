@@ -100,9 +100,18 @@ const BorderButton = props => {
     type = 'submit',
     onClick,
     disabled,
+    external,
   } = props
 
   const t = useLocale()
+
+  if (to && external) {
+    return (
+      <LinkNode color={color} active={active} href={to} as="a">
+        <Inner>{children}</Inner>
+      </LinkNode>
+    )
+  }
 
   if (to) {
     return (
