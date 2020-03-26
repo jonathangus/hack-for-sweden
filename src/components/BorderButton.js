@@ -39,6 +39,15 @@ transition: color 0.25s ease;
 }
 `
 
+const SuperButton = styled.a`
+  font-size: 22px !important;
+
+  @media (min-width: 800px) {
+    font-size: 32px !important;
+    padding: 30px 50px !important;
+  }
+`
+
 const LinkNode = styled(Link)`
   ${styles};
   border-color: ${p => p.color};
@@ -107,7 +116,7 @@ const BorderButton = props => {
 
   if (to && external) {
     return (
-      <LinkNode color={color} active={active} href={to} as="a">
+      <LinkNode color={color} active={active} href={to} as={SuperButton}>
         <Inner>{children}</Inner>
       </LinkNode>
     )
